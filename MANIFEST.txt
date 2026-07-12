@@ -1,28 +1,37 @@
-# DURU CC0 BGM — integrity manifest (6 tracks)
-# duru-* = 100% original composition (melody+harmony+synthesis by DURU), CC0 1.0.
-# korobeiniki-* = Korobeiniki (public-domain folk melody), arrangement by DURU, CC0 1.0.
-# Every track: 100% code-synthesized (Python + NumPy/SciPy). No samples, no VST.
+# DURU CC0 BGM — integrity manifest (9 tracks). All released CC0 1.0.
+# Melody: original (duru-*) OR public-domain (korobeiniki-* = Korobeiniki; mountainking-* = Grieg).
+# [pure] = 100% code-synthesized (Python + NumPy/SciPy), zero samples, no VST.
+# [+sfx] = original DURU music + third-party CC0 sound effects (see README). Not sample-free.
 
 ## durations (seconds)
-duru-rondo                    64.317642   # Kawaii future-bass rondo (ep13 / ep29)
-duru-roomscene-lofi          104.000000   # lo-fi radio room (ep11)
-duru-arcade-vibe              62.600000   # chiptune arcade vibe (ep14)
-korobeiniki-arcade-fullver   160.000000   # explainer "뱅크와 스키마로"
-korobeiniki-boombap-loop      48.000000   # "DURU BLOCK FEVER" (Tetris tribute)
-mountainking-arcade-loop      40.500000   # "DURU 2048" (Grieg, public domain)
+duru-rondo                    64.317642   # [pure] Kawaii future-bass rondo (ep13 / ep29)
+duru-roomscene-lofi          104.000000   # [pure] lo-fi radio room (ep11)
+duru-arcade-vibe              62.600000   # [pure] chiptune arcade vibe (ep14)
+mountainking-arcade-loop      40.500000   # [pure] Grieg PD arrangement (DURU 2048)
+korobeiniki-boombap-loop      48.000000   # [pure] Korobeiniki PD arrangement (BLOCK FEVER)
+korobeiniki-arcade-fullver   160.000000   # [+sfx] Korobeiniki PD + CC0 SFX (explainer)
+duru-rhythm-fever             88.799932   # [+sfx] original + CC0 SFX (ep19 RHYTHM FEVER)
+duru-denparcade               85.333333   # [+sfx] original + CC0 SFX + Faust DSP (ep16 DENPARCADE)
+duru-winter-arcade            62.080159   # [+sfx] original + CC0 SFX (ep14 winter arcade)
 
 ## sha256 (flac)
 453a6764a87e8e8a8342a79c52ca2bb572d0540536e90bf7903bf0e9a761e6f1 *flac/duru-rondo.flac
 9ad0df3453ce696b7e4323f52e3b9f3da8e7d2d79dfe876fda12ff656a15ba4c *flac/duru-roomscene-lofi.flac
 7dacd4eadda1fe96a640d558bd38190642f0a80c5a75af5db2439aa37a881d9f *flac/duru-arcade-vibe.flac
-7c3df717106e75650cddacf47e152c534f472945ab1bba179df46c92d8d03764 *flac/korobeiniki-arcade-fullver.flac
-aaf7227b2b72c7a2cd1f429db963517b37bf45ee67c52bbc5c50400720164bf6 *flac/korobeiniki-boombap-loop.flac
 90452a48940e2259791271874979a7bc96a3931ba96fd88874c793226a7f75ac *flac/mountainking-arcade-loop.flac
+aaf7227b2b72c7a2cd1f429db963517b37bf45ee67c52bbc5c50400720164bf6 *flac/korobeiniki-boombap-loop.flac
+7c3df717106e75650cddacf47e152c534f472945ab1bba179df46c92d8d03764 *flac/korobeiniki-arcade-fullver.flac
+eb0034457f6ef5581f5d0ec2e573c1116355cb53a3f6e592ade98b1b41407ca5 *flac/duru-rhythm-fever.flac
+5374dea7acf6f527cfa3c493b770a0681fac7bbd944f565d56c78de9df824120 *flac/duru-denparcade.flac
+0388ef07ab7ab1b6f337fc8b98dd85e0278c936bf2d2f5d795f533c1609049fe *flac/duru-winter-arcade.flac
 
 ## sha256 (mp3)
 bbf0f55e202c2ed3ce95f25d33fb1580e98545b75e657f7ab85c769ac83b8f41 *mp3/duru-rondo.mp3
 9b883265d8dbca53bedb3e2dcf07f26af19997a79828d1cc1713426af255a45e *mp3/duru-roomscene-lofi.mp3
 0972b796997616edeb780d1f84efca4847330d237092181aa84d1f3a5be9e850 *mp3/duru-arcade-vibe.mp3
-8cf7d5f319a3c0d2864760856710e8eab89dde4f92bc4c9c4dfdec1287714b87 *mp3/korobeiniki-arcade-fullver.mp3
-356743c8c983d358b515c862508e7e99ac0730a0214ea51d50c4b8499cf1ad50 *mp3/korobeiniki-boombap-loop.mp3
 e39115c8f39c83d191a98ddfe9962da34bc58feb02732f5dd830a6855b8c66a0 *mp3/mountainking-arcade-loop.mp3
+356743c8c983d358b515c862508e7e99ac0730a0214ea51d50c4b8499cf1ad50 *mp3/korobeiniki-boombap-loop.mp3
+8cf7d5f319a3c0d2864760856710e8eab89dde4f92bc4c9c4dfdec1287714b87 *mp3/korobeiniki-arcade-fullver.mp3
+814ade89b46869daa4fae7e791600fc04c2a06e76b7f676f57683147c8d3dc24 *mp3/duru-rhythm-fever.mp3
+47489e85086da31f33ff61e02d7425f31a05f488e1b4cc89222016832afbab6f *mp3/duru-denparcade.mp3
+47318f8cc3e6f6ffd882bd86ca7e5a7b51dc5007ff99122c6ef024c21451677d *mp3/duru-winter-arcade.mp3
