@@ -16,6 +16,7 @@ no DAW, no external audio samples, no paid libraries, no VSTs.
 | `duru-arcade-vibe` | *Arcade — vibe (MV)* chiptune (ep14) | 1:02 | **100% original** |
 | `korobeiniki-arcade-fullver` | *뱅크와 스키마로* making-of explainer | 2:40 | *Korobeiniki* (public-domain folk tune) |
 | `korobeiniki-boombap-loop` | *DURU BLOCK FEVER* (Tetris tribute) | 0:48 (loop) | *Korobeiniki* (public-domain folk tune) |
+| `mountainking-arcade-loop` | *DURU 2048* (4-seed race) | 0:40 (loop) | *In the Hall of the Mountain King*, Grieg (public domain) |
 
 Each ships as **FLAC** (lossless, `flac/`) and **MP3 320 kbps** (`mp3/`).
 
@@ -24,9 +25,10 @@ Each ships as **FLAC** (lossless, `flac/`) and **MP3 320 kbps** (`mp3/`).
 - **`duru-rondo`, `duru-roomscene-lofi`, `duru-arcade-vibe`** — original compositions,
   melody + harmony + synthesis all authored by DURU, **released under CC0 1.0**
   (public-domain dedication). See [LICENSE](LICENSE).
-- **`korobeiniki-*`** — the melody *Korobeiniki* (Коробейники) is a **19th-century
-  Russian folk tune, public domain**; anyone may use or arrange it freely. **These
-  arrangements & recordings** are composed by DURU and likewise **released under CC0 1.0**.
+- **`korobeiniki-*`, `mountainking-arcade-loop`** — the underlying melodies (*Korobeiniki*,
+  a 19th-century Russian folk tune; *In the Hall of the Mountain King* by Edvard Grieg, 1875)
+  are **public domain**; anyone may use or arrange them freely. **These arrangements &
+  recordings** are composed by DURU and likewise **released under CC0 1.0**.
 - Every track here is **100% synthesized in code** (Python + NumPy / SciPy) — no external
   audio samples, no paid sample libraries, no VST instruments.
 
