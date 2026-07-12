@@ -1,3 +1,6 @@
+> 📦 **통합 안내 / Unified** — 이 채널 음원은 [**duru-ai-cc0-bgm**](https://github.com/uncle-sheepsky/duru-ai-cc0-bgm) 단일 CC0 팩으로 통합되었습니다. 이 repo 파일은 기존 링크 유지를 위해 그대로 둡니다.
+> Now unified into **duru-ai-cc0-bgm** — files here are kept so existing links keep working.
+
 # DURU — CC0 BGM
 
 Background music from the **DURU** YouTube channel (<https://www.youtube.com/@Duru0503>),
